@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { useQuery } from '@tanstack/react-query';
 import ReactPaginate from 'react-paginate';
 import SearchBar from '../SearchBar/SearchBar';
-import { fetchMovies } from '../../services/MovieService';
+import { fetchMovies } from '../../services/movieServise';
 import type { Movie } from '../../types/movie';
 import MovieGrid from '../MovieGrid/MovieGrid';
 import ErrorMessage from '../ErrorMessage/ErrorMessage';
